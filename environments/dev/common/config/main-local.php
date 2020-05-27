@@ -3,9 +3,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=127.0.0.1;dbname=rageframe',
+            'dsn' => 'mysql:host=192.168.1.105;dbname=rageframe2',
             'username' => 'root',
-            'password' => '',
+            'password' => 'Vmonkey',
             'charset' => 'utf8mb4',
             'tablePrefix' => 'rf_',
             'attributes' => [
